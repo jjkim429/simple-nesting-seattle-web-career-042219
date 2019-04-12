@@ -125,6 +125,6 @@ def adding_to_dennis
      }
   
   #solution below
-  programmer_hash[:dennis_ritchie][:languages] << "Assembley"
+  programmer_hash[:dennis_ritchie][:languages] << "Assembly"
   programmer_hash
 end
