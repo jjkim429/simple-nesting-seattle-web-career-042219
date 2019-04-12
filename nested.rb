@@ -35,6 +35,7 @@ def alan_kay_is_known_for
           :languages => ["C"]
         }
      }
+     
   #solution below   
   programmer_hash[:alan_kay][:known_for]
 end
@@ -55,6 +56,7 @@ def dennis_ritchies_language
           :languages => ["C"]
         }
      }
+     
   #solution below   
   programmer_hash[:dennis_ritchie][:language].first
 end
@@ -75,6 +77,7 @@ def adding_matz
           :languages => ["C"]
         }
      }
+     
   #solution below
   programmer_hash[:yukihiro_matsumoto] = {:known_for => "Ruby", :languages => ["LISP", "C"]}
   programmer_hash
@@ -98,8 +101,10 @@ def changing_alan
      }
    
       alans_new_info = "GUI"
+      
   #solution below
   programmer_hash[:alan_kay][:known_for] = alans_new_info
+  programmer_hash
 end
 
 def adding_to_dennis
